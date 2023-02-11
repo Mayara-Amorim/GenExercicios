@@ -24,7 +24,7 @@ public class ExerciciosControleFluxo {
 //			System.out.println("Os valores são iguais");
 //		}
 //		
-////Exercicio extra)	
+////Exercicio 02)	
 //		int n, positivo;
 //		System.out.println("\nDigite um numero inteiro e descubra se ele"
 //				+ " é positivo ou negativo: ");
@@ -43,7 +43,23 @@ public class ExerciciosControleFluxo {
 //		}
 //		
 
-//Exercicio 03)			
+//Exercicio 03)	
+		int idade;
+		boolean doacao;
+		String nome;
+		System.out.println("Qual seu nome: ");
+		nome = leia.next();
+		System.out.println("Qual sua idade: ");
+		idade = leia.nextInt();
+		System.out.println("Ja doou?");
+		doacao = leia.nextBoolean();
+		if(idade >= 18 && idade <= 69) {
+			if(doacao == true) {
+				System.out.println(nome + ", pode doar");
+			}else {
+				System.out.println("Não pode doar");
+			}
+		}
 
 		
 //Exercicio 04)
