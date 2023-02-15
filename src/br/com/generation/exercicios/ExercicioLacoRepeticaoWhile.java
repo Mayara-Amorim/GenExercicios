@@ -23,7 +23,7 @@ public class ExercicioLacoRepeticaoWhile {
 		
 		while (idade > 0) {
 		
-		idade = Integer.valueOf(JOptionPane.showInputDialog("Digite uma idade "));
+		idade = Integer.valueOf(JOptionPane.showInputDialog("Digite uma idade: "));
 			if(idade<21 && idade>0) {
 				menor++;
 			}else if (idade >50 && idade>0) {

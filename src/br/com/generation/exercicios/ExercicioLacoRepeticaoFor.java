@@ -1,5 +1,6 @@
 package br.com.generation.exercicios;
 
+import java.util.ArrayList;
 import java.util.Scanner;
 
 import javax.swing.JOptionPane;
@@ -26,14 +27,17 @@ public class ExercicioLacoRepeticaoFor {
 		}
 		
 //Exercicio 02)
-		
+//		Array:
+//		ArrayList <Integer> idades = new ArrayList<>();
 		int[] idades = new int[10];
 		for (int i = 0; i < 10; i++) {
+//		idades.add(Integer.valueOf(JOptionPane.showInputDialog("Digite o numero: " + (i+1) + ": "));
 			idades[i] = Integer.valueOf(JOptionPane.showInputDialog("" 
 		+ "Digite uma idade " + (i + 1) + ": "));
 		}
 
 		int par = 0, impar = 0;
+							//idades.size(); x1++
 		for (int x1 = 0; x1 < idades.length; x1++) {
 			if (idades[x1] % 2 == 0) {
 				par++;

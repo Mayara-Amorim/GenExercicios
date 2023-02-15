@@ -19,7 +19,18 @@ public class ExercicioLacoRepeticaoDoWhile {
 //			x++;
 //		}while(x<=10);
 
-//Exercicio 01		
+//Exercicio 01	
+//		String nome = "Mayara";
+//		String novo = nome.toUpperCase();
+//		System.out.println(nome);
+//		System.out.println(novo);
+//		int [] numeros = new int [5];
+//		numeros [0] = 1;
+//		numeros [1] = 2;
+//		int idades1 = numeros[6];
+//		System.out.println(idades1); //Exception in thread "main"
+		//java.lang.ArrayIndexOutOfBoundsException:
+		
 		Integer num;
 		int x = 0;
 		do{
